@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+    <style>
+
+    div {
+    animation: changeColor 5s infinite;
+    }
+
+
+    @keyframes changeColor {
+    0%   {color: red;}
+    25%  {color: yellow;}
+    50%  {color: blue;}
+    100% {color: green;}
+    }
+    </style>
+
+<div class = "borda_texto">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Meme MIDI</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="images/bateria.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+<body >
+    <span class="highlightme">
+    <h1>Memes Midi</h1>
+
+    <section class="teclado">
+        <button class="tecla tecla_uii">Uii</button>
+        <button class="tecla tecla_cavalo">Cavalo</button>
+        <button class="tecla tecla_eleGosta">Ele_Gosta</button>
+
+        <button class="tecla tecla_Natalina">Natalina</button>
+        <button class="tecla tecla_moaNoite">Moa_Noite</button>
+        <button class="tecla tecla_calar">Calar</button>
+
+        <button class="tecla tecla_passivo">Passivo</button>
+        <button class="tecla tecla_rapaz">Rapaz</button>
+        <button class="tecla tecla_irra">Irra</button> 
+        
+        <button class="tecla tecla_uepa">Uepa</button>
+        <button class="tecla tecla_travis">Travis</button>
+        <button class="tecla tecla_queda">Queda</button>
+    </section>
+
+    <audio src="sounds/uii.wav" id="som_tecla_uii"></audio>
+    <audio src="sounds/cavalo.wav" id="som_tecla_cavalo"></audio>
+    <audio src="sounds/eleGosta.wav" id="som_tecla_eleGosta"></audio>
+    <audio src="sounds/Natalina.wav" id="som_tecla_Natalina"></audio>
+    <audio src="sounds/moaNoite.wav" id="som_tecla_moaNoite"></audio>
+    <audio src="sounds/calar.wav" id="som_tecla_calar"></audio>
+    <audio src="sounds/passivo.wav" id="som_tecla_passivo"></audio>
+    <audio src="sounds/rapaz.wav" id="som_tecla_rapaz"></audio>
+    <audio src="sounds/irra.wav" id="som_tecla_irra"></audio>
+    <audio src="sounds/uepa.wav" id="som_tecla_uepa"></audio>
+    <audio src="sounds/travis.wav" id="som_tecla_travis"></audio>
+    <audio src="sounds/queda.wav" id="som_tecla_queda"></audio>
+
+    <script src="main.js"></script>
+    </span>
+</body>
+</div>
+</html>
